@@ -4,6 +4,14 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
+import Contact from "./pages/Contact";
+import StartShopping from "./pages/StartShopping";
+import BecomePartner from "./pages/BecomePartner";
+import FreshVegetables from "./pages/categories/FreshVegetables";
+import SeasonalFruits from "./pages/categories/SeasonalFruits";
+import OrganicGrains from "./pages/categories/OrganicGrains";
+import DairyProducts from "./pages/categories/DairyProducts";
+import HerbsSpices from "./pages/categories/HerbsSpices";
 
 const queryClient = new QueryClient();
 
@@ -15,6 +23,14 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/start-shopping" element={<StartShopping />} />
+          <Route path="/become-partner" element={<BecomePartner />} />
+          <Route path="/categories/fresh-vegetables" element={<FreshVegetables />} />
+          <Route path="/categories/seasonal-fruits" element={<SeasonalFruits />} />
+          <Route path="/categories/organic-grains" element={<OrganicGrains />} />
+          <Route path="/categories/dairy-products" element={<DairyProducts />} />
+          <Route path="/categories/herbs-spices" element={<HerbsSpices />} />
           <Route path="*" element={<div>Page not found</div>} />
         </Routes>
       </BrowserRouter>

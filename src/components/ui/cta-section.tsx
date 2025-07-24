@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Download, Users } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const CtaSection = () => {
   return (
@@ -20,10 +21,12 @@ const CtaSection = () => {
                 Download our app and get access to the freshest farm produce delivered straight to your door. Join thousands of happy customers today.
               </p>
               <div className="space-y-4">
-                <Button size="lg" className="w-full lg:w-auto bg-primary hover:bg-primary/90">
-                  Download App
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
+                <Link to="/start-shopping">
+                  <Button size="lg" className="w-full lg:w-auto bg-primary hover:bg-primary/90">
+                    Start Shopping
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </Button>
+                </Link>
                 <div className="flex items-center justify-center lg:justify-start gap-6 text-sm text-muted-foreground">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-500 rounded-full"></div>
@@ -51,10 +54,12 @@ const CtaSection = () => {
                 Are you a farmer or supplier? Join our platform and reach thousands of customers looking for fresh, quality produce.
               </p>
               <div className="space-y-4">
-                <Button size="lg" variant="outline" className="w-full lg:w-auto border-2 hover:bg-secondary/10">
-                  Become a Partner
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
+                <Link to="/become-partner">
+                  <Button size="lg" variant="outline" className="w-full lg:w-auto border-2 hover:bg-secondary/10">
+                    Become a Partner
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </Button>
+                </Link>
                 <div className="flex items-center justify-center lg:justify-start gap-6 text-sm text-muted-foreground">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
