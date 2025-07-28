@@ -9,49 +9,73 @@ const dairyProducts = [
   {
     id: 1,
     name: 'Fresh Whole Milk',
-    farmer: 'Sunrise Dairy Farm',
-    price: '$4.99/gallon',
-    location: 'Vermont',
+    farmer: 'Amul Dairy Cooperative',
+    price: '₹50/litre',
+    location: 'Gujarat, India',
     rating: 4.9,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Farm-fresh whole milk from grass-fed cows, delivered daily',
+    description: 'Farm-fresh whole milk from grass-fed Indian cows, delivered daily',
     cold: true
   },
   {
     id: 2,
-    name: 'Artisan Cheddar Cheese',
-    farmer: 'Mountain View Creamery',
-    price: '$12.99/lb',
-    location: 'Wisconsin',
+    name: 'Fresh Paneer',
+    farmer: 'Punjab Dairy Farms',
+    price: '₹80/250g',
+    location: 'Punjab, India',
     rating: 4.8,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Aged cheddar cheese made with traditional methods',
+    description: 'Soft, fresh paneer made daily from pure milk',
     cold: true
   },
   {
     id: 3,
-    name: 'Organic Greek Yogurt',
-    farmer: 'Pure Valley Dairy',
-    price: '$6.49/32oz',
-    location: 'New York',
+    name: 'Thick Curd (Dahi)',
+    farmer: 'Maharashtra Dairy Co-op',
+    price: '₹30/500g',
+    location: 'Maharashtra, India',
     rating: 4.7,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Thick, creamy Greek yogurt made from organic milk',
+    description: 'Thick, creamy curd perfect for Indian meals and lassi',
     cold: true
   },
   {
     id: 4,
-    name: 'Farm Butter',
-    farmer: 'Golden Meadow Farm',
-    price: '$8.99/lb',
-    location: 'Pennsylvania',
+    name: 'Pure Desi Ghee',
+    farmer: 'Rajasthan Traditional Dairy',
+    price: '₹250/500ml',
+    location: 'Rajasthan, India',
+    rating: 4.9,
+    image: '/placeholder.svg',
+    inStock: true,
+    description: 'Pure desi ghee made from cow milk using traditional methods',
+    cold: true
+  },
+  {
+    id: 5,
+    name: 'Fresh Butter',
+    farmer: 'Himachal Dairy Collective',
+    price: '₹60/100g',
+    location: 'Himachal Pradesh, India',
     rating: 4.6,
     image: '/placeholder.svg',
-    inStock: false,
+    inStock: true,
     description: 'Rich, creamy butter churned from fresh cream',
+    cold: true
+  },
+  {
+    id: 6,
+    name: 'Cottage Cheese (Chenna)',
+    farmer: 'Bengal Sweet Makers',
+    price: '₹70/250g',
+    location: 'West Bengal, India',
+    rating: 4.5,
+    image: '/placeholder.svg',
+    inStock: false,
+    description: 'Fresh cottage cheese perfect for Bengali sweets and desserts',
     cold: true
   }
 ];
@@ -69,7 +93,7 @@ const DairyProducts = () => {
               Fresh Dairy Products
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Experience the pure taste of farm-fresh dairy products. From creamy milk to artisan cheeses, all sourced from local farms that prioritize animal welfare and quality.
+              Experience the pure taste of farm-fresh dairy products. From creamy milk to fresh paneer and desi ghee, all sourced from local farms across India.
             </p>
           </div>
         </section>

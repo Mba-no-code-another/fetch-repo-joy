@@ -8,51 +8,75 @@ import { Star, MapPin, Truck, Leaf } from 'lucide-react';
 const herbs = [
   {
     id: 1,
-    name: 'Fresh Basil',
-    farmer: 'Herb Garden Co.',
-    price: '$3.99/bunch',
-    location: 'California',
+    name: 'Fresh Coriander (Dhania)',
+    farmer: 'Mumbai Herb Gardens',
+    price: '₹10/100g',
+    location: 'Maharashtra, India',
     rating: 4.9,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Aromatic fresh basil perfect for Italian dishes and pesto',
+    description: 'Fresh coriander leaves perfect for garnishing Indian dishes',
     type: 'Fresh Herb'
   },
   {
     id: 2,
-    name: 'Organic Rosemary',
-    farmer: 'Mountain Herbs Farm',
-    price: '$4.49/bunch',
-    location: 'Oregon',
+    name: 'Fresh Mint (Pudina)',
+    farmer: 'Punjab Green Farms',
+    price: '₹15/100g',
+    location: 'Punjab, India',
     rating: 4.8,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Fragrant rosemary sprigs ideal for roasting and seasoning',
+    description: 'Aromatic mint leaves ideal for chutneys and beverages',
     type: 'Fresh Herb'
   },
   {
     id: 3,
-    name: 'Black Peppercorns',
-    farmer: 'Spice Route Trading',
-    price: '$12.99/4oz',
-    location: 'Local',
+    name: 'Turmeric Powder (Haldi)',
+    farmer: 'Kerala Spice Co-op',
+    price: '₹30/100g',
+    location: 'Kerala, India',
     rating: 4.7,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Premium whole black peppercorns for the freshest ground pepper',
+    description: 'Pure turmeric powder with high curcumin content',
     type: 'Spice'
   },
   {
     id: 4,
-    name: 'Fresh Thyme',
-    farmer: 'Garden Valley Herbs',
-    price: '$3.49/bunch',
-    location: 'Washington',
+    name: 'Red Chili Powder (Lal Mirch)',
+    farmer: 'Andhra Spice Collective',
+    price: '₹35/100g',
+    location: 'Andhra Pradesh, India',
+    rating: 4.8,
+    image: '/placeholder.svg',
+    inStock: true,
+    description: 'Premium red chili powder with authentic heat and flavor',
+    type: 'Spice'
+  },
+  {
+    id: 5,
+    name: 'Cumin Seeds (Jeera)',
+    farmer: 'Rajasthan Spice Traders',
+    price: '₹40/100g',
+    location: 'Rajasthan, India',
     rating: 4.6,
     image: '/placeholder.svg',
+    inStock: true,
+    description: 'Aromatic cumin seeds essential for Indian tempering',
+    type: 'Spice'
+  },
+  {
+    id: 6,
+    name: 'Garam Masala Blend',
+    farmer: 'Delhi Spice Masters',
+    price: '₹50/100g',
+    location: 'Delhi, India',
+    rating: 4.9,
+    image: '/placeholder.svg',
     inStock: false,
-    description: 'Delicate thyme leaves perfect for Mediterranean cooking',
-    type: 'Fresh Herb'
+    description: 'Traditional garam masala blend with perfect balance of spices',
+    type: 'Spice Blend'
   }
 ];
 
@@ -69,7 +93,7 @@ const HerbsSpices = () => {
               Fresh Herbs & Spices
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Elevate your cooking with fresh, aromatic herbs and premium spices. From garden-fresh basil to exotic spice blends, add natural flavors to every meal.
+              Elevate your Indian cooking with fresh herbs and authentic spices. From fresh coriander to traditional masala blends, add authentic flavors to every meal.
             </p>
           </div>
         </section>

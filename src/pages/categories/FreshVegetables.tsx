@@ -9,46 +9,68 @@ const vegetables = [
   {
     id: 1,
     name: 'Organic Tomatoes',
-    farmer: 'Green Valley Farm',
-    price: '$4.99/lb',
-    location: 'California',
+    farmer: 'Nashik Fresh Farms',
+    price: '₹30/kg',
+    location: 'Maharashtra, India',
     rating: 4.8,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Fresh, vine-ripened organic tomatoes perfect for salads and cooking'
+    description: 'Fresh, vine-ripened organic tomatoes perfect for Indian cooking'
   },
   {
     id: 2,
-    name: 'Fresh Spinach',
-    farmer: 'Sunshine Greens',
-    price: '$3.49/bunch',
-    location: 'Oregon',
+    name: 'Fresh Spinach (Palak)',
+    farmer: 'Green Fields Co-op',
+    price: '₹15/250g',
+    location: 'Punjab, India',
     rating: 4.9,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Crisp, nutrient-rich spinach leaves harvested this morning'
+    description: 'Crisp, nutrient-rich spinach leaves perfect for palak dishes'
   },
   {
     id: 3,
-    name: 'Bell Peppers',
-    farmer: 'Rainbow Farms',
-    price: '$2.99/lb',
-    location: 'Texas',
+    name: 'Bell Peppers (Shimla Mirch)',
+    farmer: 'Valley Vegetables',
+    price: '₹35/250g',
+    location: 'Himachal Pradesh, India',
     rating: 4.7,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Colorful mix of red, yellow, and green bell peppers'
+    description: 'Colorful mix of red, yellow, and green bell peppers from Shimla'
   },
   {
     id: 4,
-    name: 'Organic Carrots',
-    farmer: 'Earth Harvest',
-    price: '$2.49/lb',
-    location: 'Washington',
+    name: 'Organic Carrots (Gajar)',
+    farmer: 'Punjab Organic Farms',
+    price: '₹25/kg',
+    location: 'Punjab, India',
     rating: 4.6,
     image: '/placeholder.svg',
+    inStock: true,
+    description: 'Sweet, crunchy organic carrots grown in fertile Punjab soil'
+  },
+  {
+    id: 5,
+    name: 'Brinjal (Baingan)',
+    farmer: 'South Indian Farms',
+    price: '₹20/500g',
+    location: 'Karnataka, India',
+    rating: 4.5,
+    image: '/placeholder.svg',
+    inStock: true,
+    description: 'Fresh purple brinjals perfect for bhartha and curries'
+  },
+  {
+    id: 6,
+    name: 'Cauliflower (Gobi)',
+    farmer: 'North Plains Collective',
+    price: '₹25/piece',
+    location: 'Haryana, India',
+    rating: 4.7,
+    image: '/placeholder.svg',
     inStock: false,
-    description: 'Sweet, crunchy organic carrots grown in rich soil'
+    description: 'Fresh, white cauliflower heads perfect for gobi dishes'
   }
 ];
 
@@ -65,7 +87,7 @@ const FreshVegetables = () => {
               Fresh Vegetables
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Discover the freshest, locally-grown vegetables from trusted farmers in your area. From leafy greens to root vegetables, we have everything you need for healthy meals.
+              Discover the freshest vegetables from trusted farmers across India. From leafy greens to seasonal vegetables, we have everything you need for authentic Indian cooking.
             </p>
           </div>
         </section>

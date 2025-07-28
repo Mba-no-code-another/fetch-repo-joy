@@ -8,47 +8,69 @@ import { Star, MapPin, Truck } from 'lucide-react';
 const fruits = [
   {
     id: 1,
-    name: 'Organic Apples',
-    farmer: 'Orchard Valley',
-    price: '$3.99/lb',
-    location: 'Washington',
+    name: 'Alphonso Mango',
+    farmer: 'Maharashtra Orchards',
+    price: '₹100/kg',
+    location: 'Maharashtra, India',
     rating: 4.9,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Crisp, sweet organic apples perfect for snacking or baking'
+    description: 'Premium Alphonso mangoes - the king of mangoes, sweet and aromatic'
   },
   {
     id: 2,
-    name: 'Fresh Strawberries',
-    farmer: 'Berry Fields Farm',
-    price: '$6.99/pint',
-    location: 'California',
+    name: 'Himachal Apples',
+    farmer: 'Mountain Fresh Farms',
+    price: '₹120/kg',
+    location: 'Himachal Pradesh, India',
     rating: 4.8,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Juicy, locally-grown strawberries picked at peak ripeness'
+    description: 'Crisp, juicy apples from the hills of Himachal Pradesh'
   },
   {
     id: 3,
-    name: 'Seasonal Peaches',
-    farmer: 'Sunset Orchards',
-    price: '$4.49/lb',
-    location: 'Georgia',
+    name: 'Nagpur Oranges',
+    farmer: 'Citrus Valley Co-op',
+    price: '₹70/kg',
+    location: 'Maharashtra, India',
     rating: 4.7,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Sweet, fuzzy peaches bursting with summer flavor'
+    description: 'Sweet and tangy Nagpur oranges, rich in Vitamin C'
   },
   {
     id: 4,
-    name: 'Fresh Blueberries',
-    farmer: 'Mountain Berry Co.',
-    price: '$7.99/pint',
-    location: 'Maine',
+    name: 'Kerala Bananas',
+    farmer: 'Tropical Fruit Collective',
+    price: '₹40/dozen',
+    location: 'Kerala, India',
+    rating: 4.6,
+    image: '/placeholder.svg',
+    inStock: true,
+    description: 'Fresh, naturally ripened bananas from Kerala plantations'
+  },
+  {
+    id: 5,
+    name: 'Kashmir Apples',
+    farmer: 'Valley Fresh Orchards',
+    price: '₹150/kg',
+    location: 'Kashmir, India',
     rating: 4.9,
     image: '/placeholder.svg',
     inStock: false,
-    description: 'Antioxidant-rich wild blueberries from mountain farms'
+    description: 'Premium Kashmir apples - crisp, sweet and naturally grown'
+  },
+  {
+    id: 6,
+    name: 'Watermelon',
+    farmer: 'Desert Fresh Farms',
+    price: '₹25/kg',
+    location: 'Rajasthan, India',
+    rating: 4.5,
+    image: '/placeholder.svg',
+    inStock: true,
+    description: 'Juicy, sweet watermelons perfect for summer refreshment'
   }
 ];
 
@@ -65,7 +87,7 @@ const SeasonalFruits = () => {
               Seasonal Fruits
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Enjoy nature's sweetest offerings with our selection of seasonal fruits. From crisp apples to juicy berries, discover the perfect fruits for every season.
+              Enjoy the best of India's seasonal fruits - from Alphonso mangoes to Kashmir apples. Hand-picked at peak ripeness and delivered fresh to your doorstep.
             </p>
           </div>
         </section>

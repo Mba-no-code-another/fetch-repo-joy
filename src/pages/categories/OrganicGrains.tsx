@@ -8,47 +8,69 @@ import { Star, MapPin, Truck } from 'lucide-react';
 const grains = [
   {
     id: 1,
-    name: 'Organic Brown Rice',
-    farmer: 'Golden Fields Farm',
-    price: '$5.99/5lb',
-    location: 'Arkansas',
+    name: 'Organic Basmati Rice',
+    farmer: 'Punjab Golden Fields',
+    price: '₹80/kg',
+    location: 'Punjab, India',
     rating: 4.8,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Nutrient-rich brown rice grown using sustainable farming methods'
+    description: 'Premium organic basmati rice with authentic aroma and long grains'
   },
   {
     id: 2,
-    name: 'Ancient Quinoa',
-    farmer: 'Mountain Harvest Co.',
-    price: '$8.99/2lb',
-    location: 'Colorado',
+    name: 'Whole Wheat Atta',
+    farmer: 'Haryana Grain Co-op',
+    price: '₹45/kg',
+    location: 'Haryana, India',
     rating: 4.9,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Premium quinoa variety packed with protein and minerals'
+    description: 'Stone-ground whole wheat flour perfect for rotis and parathas'
   },
   {
     id: 3,
-    name: 'Organic Wheat Flour',
-    farmer: 'Prairie Wind Farm',
-    price: '$4.49/5lb',
-    location: 'Kansas',
+    name: 'Yellow Moong Dal',
+    farmer: 'Rajasthan Pulses',
+    price: '₹90/kg',
+    location: 'Rajasthan, India',
     rating: 4.7,
     image: '/placeholder.svg',
     inStock: true,
-    description: 'Stone-ground whole wheat flour from heritage wheat varieties'
+    description: 'High-quality yellow moong dal, protein-rich and easy to cook'
   },
   {
     id: 4,
-    name: 'Red Lentils',
-    farmer: 'Valley Legumes',
-    price: '$6.99/2lb',
-    location: 'Montana',
+    name: 'Organic Bajra (Pearl Millet)',
+    farmer: 'Gujarat Millets Farm',
+    price: '₹50/kg',
+    location: 'Gujarat, India',
     rating: 4.6,
     image: '/placeholder.svg',
+    inStock: true,
+    description: 'Nutritious bajra flour, perfect for healthy Indian breads'
+  },
+  {
+    id: 5,
+    name: 'Jowar Flour (Sorghum)',
+    farmer: 'Maharashtra Grains',
+    price: '₹35/500g',
+    location: 'Maharashtra, India',
+    rating: 4.5,
+    image: '/placeholder.svg',
+    inStock: true,
+    description: 'Gluten-free jowar flour, ideal for traditional Indian flatbreads'
+  },
+  {
+    id: 6,
+    name: 'Chana Dal (Split Chickpeas)',
+    farmer: 'Madhya Pradesh Legumes',
+    price: '₹85/kg',
+    location: 'Madhya Pradesh, India',
+    rating: 4.7,
+    image: '/placeholder.svg',
     inStock: false,
-    description: 'High-protein red lentils perfect for soups and curries'
+    description: 'Premium chana dal, essential for Indian cooking and high in protein'
   }
 ];
 
@@ -65,7 +87,7 @@ const OrganicGrains = () => {
               Organic Grains & Pulses
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Discover wholesome, organic grains and pulses that form the foundation of healthy meals. From ancient grains to traditional staples, all grown with care.
+              Discover wholesome, organic grains and pulses that form the foundation of Indian cuisine. From premium basmati rice to traditional millets, all grown with care.
             </p>
           </div>
         </section>
