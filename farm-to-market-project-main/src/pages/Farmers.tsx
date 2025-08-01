@@ -16,7 +16,7 @@ const mockFarmers = [
     verified: true,
     joinedDate: '2022',
     description: 'Certified organic farmer with 20+ years of experience in sustainable farming practices.',
-    image: '/placeholder.svg'
+    image: 'https://images.unsplash.com/photo-1472058893521-2a5c4ba35256?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const mockFarmers = [
     verified: true,
     joinedDate: '2021',
     description: 'Specializes in pesticide-free leafy vegetables using traditional farming methods.',
-    image: '/placeholder.svg'
+    image: 'https://images.unsplash.com/photo-1594736797933-d0400bcc2cda?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ const mockFarmers = [
     verified: true,
     joinedDate: '2023',
     description: 'Third-generation farmer focusing on heritage grains and sustainable agriculture.',
-    image: '/placeholder.svg'
+    image: 'https://images.unsplash.com/photo-1500076656116-558758c991c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ const mockFarmers = [
     verified: false,
     joinedDate: '2023',
     description: 'Mountain farmer growing premium apples and seasonal fruits in organic conditions.',
-    image: '/placeholder.svg'
+    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   }
 ];
 

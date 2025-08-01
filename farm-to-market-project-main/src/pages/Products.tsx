@@ -13,7 +13,7 @@ const mockProducts = [
     price: '₹40/kg',
     location: 'Delhi NCR - Pickup Center A',
     rating: 4.8,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1561136594-7f68413baa99?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     category: 'Vegetables',
     inStock: true,
     harvestDate: '2 days ago'
@@ -25,7 +25,7 @@ const mockProducts = [
     price: '₹25/bunch',
     location: 'Mumbai - Pickup Center B',
     rating: 4.9,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1576045057995-568f588f82fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     category: 'Vegetables',
     inStock: true,
     harvestDate: '1 day ago'
@@ -37,7 +37,7 @@ const mockProducts = [
     price: '₹80/kg',
     location: 'Pune - Pickup Center C',
     rating: 4.7,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1586201375761-83865001e31c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     category: 'Grains',
     inStock: true,
     harvestDate: '1 week ago'
@@ -49,7 +49,7 @@ const mockProducts = [
     price: '₹120/kg',
     location: 'Bangalore - Pickup Center D',
     rating: 4.6,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     category: 'Fruits',
     inStock: false,
     harvestDate: '3 days ago'

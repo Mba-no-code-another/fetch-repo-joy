@@ -41,7 +41,7 @@ const About = () => {
               </div>
               <div className="relative">
                 <img 
-                  src="/placeholder.svg" 
+                  src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                   alt="Farm to market process" 
                   className="w-full rounded-lg shadow-lg"
                 />
