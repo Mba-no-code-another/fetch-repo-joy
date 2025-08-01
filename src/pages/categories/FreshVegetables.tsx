@@ -13,7 +13,7 @@ const vegetables = [
     price: '₹30/kg',
     location: 'Maharashtra, India',
     rating: 4.8,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1561136594-7f68413baa99?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Fresh, vine-ripened organic tomatoes perfect for Indian cooking'
   },
@@ -24,7 +24,7 @@ const vegetables = [
     price: '₹15/250g',
     location: 'Punjab, India',
     rating: 4.9,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1576045057995-568f588f82fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Crisp, nutrient-rich spinach leaves perfect for palak dishes'
   },
@@ -35,7 +35,7 @@ const vegetables = [
     price: '₹35/250g',
     location: 'Himachal Pradesh, India',
     rating: 4.7,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Colorful mix of red, yellow, and green bell peppers from Shimla'
   },
@@ -46,7 +46,7 @@ const vegetables = [
     price: '₹25/kg',
     location: 'Punjab, India',
     rating: 4.6,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Sweet, crunchy organic carrots grown in fertile Punjab soil'
   },
@@ -57,7 +57,7 @@ const vegetables = [
     price: '₹20/500g',
     location: 'Karnataka, India',
     rating: 4.5,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1659261200833-ec8761558af7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Fresh purple brinjals perfect for bhartha and curries'
   },
@@ -68,7 +68,7 @@ const vegetables = [
     price: '₹25/piece',
     location: 'Haryana, India',
     rating: 4.7,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1568584711271-946d0db2aafe?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: false,
     description: 'Fresh, white cauliflower heads perfect for gobi dishes'
   }

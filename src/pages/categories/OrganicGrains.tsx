@@ -13,7 +13,7 @@ const grains = [
     price: '₹80/kg',
     location: 'Punjab, India',
     rating: 4.8,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1586201375761-83865001e31c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Premium organic basmati rice with authentic aroma and long grains'
   },
@@ -24,7 +24,7 @@ const grains = [
     price: '₹45/kg',
     location: 'Haryana, India',
     rating: 4.9,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Stone-ground whole wheat flour perfect for rotis and parathas'
   },
@@ -35,7 +35,7 @@ const grains = [
     price: '₹90/kg',
     location: 'Rajasthan, India',
     rating: 4.7,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'High-quality yellow moong dal, protein-rich and easy to cook'
   },
@@ -46,7 +46,7 @@ const grains = [
     price: '₹50/kg',
     location: 'Gujarat, India',
     rating: 4.6,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1594736797933-d0400bcc2cda?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Nutritious bajra flour, perfect for healthy Indian breads'
   },
@@ -57,7 +57,7 @@ const grains = [
     price: '₹35/500g',
     location: 'Maharashtra, India',
     rating: 4.5,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1628015081036-0747ec8f077a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Gluten-free jowar flour, ideal for traditional Indian flatbreads'
   },
@@ -68,7 +68,7 @@ const grains = [
     price: '₹85/kg',
     location: 'Madhya Pradesh, India',
     rating: 4.7,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1610564558732-a36c988cc01e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: false,
     description: 'Premium chana dal, essential for Indian cooking and high in protein'
   }

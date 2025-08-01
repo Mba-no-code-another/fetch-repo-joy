@@ -13,7 +13,7 @@ const herbs = [
     price: '₹10/100g',
     location: 'Maharashtra, India',
     rating: 4.9,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Fresh coriander leaves perfect for garnishing Indian dishes',
     type: 'Fresh Herb'
@@ -25,7 +25,7 @@ const herbs = [
     price: '₹15/100g',
     location: 'Punjab, India',
     rating: 4.8,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1628776098-6b63f01d2e8d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Aromatic mint leaves ideal for chutneys and beverages',
     type: 'Fresh Herb'
@@ -37,7 +37,7 @@ const herbs = [
     price: '₹30/100g',
     location: 'Kerala, India',
     rating: 4.7,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1615485925600-97237c4fc1da?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Pure turmeric powder with high curcumin content',
     type: 'Spice'
@@ -49,7 +49,7 @@ const herbs = [
     price: '₹35/100g',
     location: 'Andhra Pradesh, India',
     rating: 4.8,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1583088225516-4691bc46fad7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Premium red chili powder with authentic heat and flavor',
     type: 'Spice'
@@ -61,7 +61,7 @@ const herbs = [
     price: '₹40/100g',
     location: 'Rajasthan, India',
     rating: 4.6,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1596040033229-a0b3b1f1e2a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Aromatic cumin seeds essential for Indian tempering',
     type: 'Spice'
@@ -73,7 +73,7 @@ const herbs = [
     price: '₹50/100g',
     location: 'Delhi, India',
     rating: 4.9,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1596040033305-9e1d7c5e4026?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: false,
     description: 'Traditional garam masala blend with perfect balance of spices',
     type: 'Spice Blend'

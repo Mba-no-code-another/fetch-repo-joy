@@ -13,7 +13,7 @@ const dairyProducts = [
     price: '₹50/litre',
     location: 'Gujarat, India',
     rating: 4.9,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Farm-fresh whole milk from grass-fed Indian cows, delivered daily',
     cold: true
@@ -25,7 +25,7 @@ const dairyProducts = [
     price: '₹80/250g',
     location: 'Punjab, India',
     rating: 4.8,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Soft, fresh paneer made daily from pure milk',
     cold: true
@@ -37,7 +37,7 @@ const dairyProducts = [
     price: '₹30/500g',
     location: 'Maharashtra, India',
     rating: 4.7,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1601154240866-95d04d5b3c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Thick, creamy curd perfect for Indian meals and lassi',
     cold: true
@@ -49,7 +49,7 @@ const dairyProducts = [
     price: '₹250/500ml',
     location: 'Rajasthan, India',
     rating: 4.9,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1628088062854-d1870b4553da?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Pure desi ghee made from cow milk using traditional methods',
     cold: true
@@ -61,7 +61,7 @@ const dairyProducts = [
     price: '₹60/100g',
     location: 'Himachal Pradesh, India',
     rating: 4.6,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Rich, creamy butter churned from fresh cream',
     cold: true
@@ -73,7 +73,7 @@ const dairyProducts = [
     price: '₹70/250g',
     location: 'West Bengal, India',
     rating: 4.5,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: false,
     description: 'Fresh cottage cheese perfect for Bengali sweets and desserts',
     cold: true

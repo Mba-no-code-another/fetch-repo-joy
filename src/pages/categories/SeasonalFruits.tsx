@@ -13,7 +13,7 @@ const fruits = [
     price: '₹100/kg',
     location: 'Maharashtra, India',
     rating: 4.9,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1605027990121-cbae9ff08653?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Premium Alphonso mangoes - the king of mangoes, sweet and aromatic'
   },
@@ -24,7 +24,7 @@ const fruits = [
     price: '₹120/kg',
     location: 'Himachal Pradesh, India',
     rating: 4.8,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Crisp, juicy apples from the hills of Himachal Pradesh'
   },
@@ -35,7 +35,7 @@ const fruits = [
     price: '₹70/kg',
     location: 'Maharashtra, India',
     rating: 4.7,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1580052614034-c55d20bfee3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Sweet and tangy Nagpur oranges, rich in Vitamin C'
   },
@@ -46,7 +46,7 @@ const fruits = [
     price: '₹40/dozen',
     location: 'Kerala, India',
     rating: 4.6,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Fresh, naturally ripened bananas from Kerala plantations'
   },
@@ -57,7 +57,7 @@ const fruits = [
     price: '₹150/kg',
     location: 'Kashmir, India',
     rating: 4.9,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: false,
     description: 'Premium Kashmir apples - crisp, sweet and naturally grown'
   },
@@ -68,7 +68,7 @@ const fruits = [
     price: '₹25/kg',
     location: 'Rajasthan, India',
     rating: 4.5,
-    image: '/placeholder.svg',
+    image: 'https://images.unsplash.com/photo-1587049352846-4a222e784d38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     inStock: true,
     description: 'Juicy, sweet watermelons perfect for summer refreshment'
   }
