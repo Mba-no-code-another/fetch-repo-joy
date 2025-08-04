@@ -1,10 +1,13 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
+import { Menu, X, ShoppingCart } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useCart } from '@/hooks/useCart';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const { getTotalItems } = useCart();
 
   return (
     <nav className="bg-background border-b border-border sticky top-0 z-50">
@@ -37,12 +40,26 @@ const Navbar = () => {
 
           {/* Desktop Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" size="sm">
-              Sign In
-            </Button>
-            <Button size="sm">
-              Sign Up
-            </Button>
+            <Link to="/cart" className="relative">
+              <Button variant="ghost" size="sm" className="flex items-center gap-2">
+                <ShoppingCart className="h-4 w-4" />
+                {getTotalItems() > 0 && (
+                  <Badge variant="destructive" className="absolute -top-2 -right-2 h-5 w-5 flex items-center justify-center p-0 text-xs">
+                    {getTotalItems()}
+                  </Badge>
+                )}
+              </Button>
+            </Link>
+            <Link to="/signin">
+              <Button variant="ghost" size="sm">
+                Sign In
+              </Button>
+            </Link>
+            <Link to="/signup">
+              <Button size="sm">
+                Sign Up
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -77,13 +94,21 @@ const Navbar = () => {
             <Link to="/contact" className="text-muted-foreground hover:text-primary block px-3 py-2 text-base font-medium">
               Contact
             </Link>
+            <Link to="/cart" className="text-muted-foreground hover:text-primary block px-3 py-2 text-base font-medium flex items-center gap-2">
+              <ShoppingCart className="h-4 w-4" />
+              Cart ({getTotalItems()})
+            </Link>
             <div className="flex flex-col space-y-2 px-3 pt-4">
-              <Button variant="ghost" size="sm" className="justify-start">
-                Sign In
-              </Button>
-              <Button size="sm" className="justify-start">
-                Sign Up
-              </Button>
+              <Link to="/signin">
+                <Button variant="ghost" size="sm" className="justify-start w-full">
+                  Sign In
+                </Button>
+              </Link>
+              <Link to="/signup">
+                <Button size="sm" className="justify-start w-full">
+                  Sign Up
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

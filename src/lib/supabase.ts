@@ -41,23 +41,29 @@ export interface Order {
   order_date: string;
   status: 'pending' | 'confirmed' | 'delivered' | 'cancelled';
   total_amount: number;
+  delivery_type: 'pickup' | 'delivery';
   delivery_address: {
-    address: string;
-    city: string;
-    state: string;
-    zip: string;
+    name?: string;
+    phone?: string;
+    address?: string;
+    city?: string;
+    state?: string;
+    zip?: string;
+    pickup_location?: string;
   };
-  payment_method: 'COD';
+  payment_method: 'cod';
   items: OrderItem[];
-  farmer_notifications: FarmerNotification[];
+  notes?: string;
+  farmer_notifications?: FarmerNotification[];
 }
 
 export interface OrderItem {
-  product_id: string;
+  product_id?: string;
   name: string;
   quantity: number;
   price: number;
-  farmer_id: string;
+  farmer?: string;
+  farmer_id?: string;
 }
 
 export interface FarmerNotification {

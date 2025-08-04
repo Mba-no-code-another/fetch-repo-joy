@@ -3,7 +3,9 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Search, Filter, MapPin, Star, Clock } from 'lucide-react';
+import { Search, Filter, MapPin, Star, Clock, ShoppingCart } from 'lucide-react';
+import { useCart } from '@/hooks/useCart';
+import { useToast } from '@/hooks/use-toast';
 
 const mockProducts = [
   {
@@ -59,6 +61,8 @@ const mockProducts = [
 const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [searchTerm, setSearchTerm] = useState('');
+  const { addToCart } = useCart();
+  const { toast } = useToast();
 
   const categories = ['All', 'Vegetables', 'Fruits', 'Grains'];
 
@@ -68,6 +72,28 @@ const Products = () => {
                          product.farmer.toLowerCase().includes(searchTerm.toLowerCase());
     return matchesCategory && matchesSearch;
   });
+
+  const handleAddToCart = (product: typeof mockProducts[0]) => {
+    if (!product.inStock) return;
+    
+    // Extract numeric price from price text (e.g., "₹40/kg" -> 40)
+    const price = parseInt(product.price.replace(/[^\d]/g, ''));
+    
+    addToCart({
+      id: product.id,
+      name: product.name,
+      price: price,
+      priceText: product.price,
+      farmer: product.farmer,
+      image: product.image,
+      category: product.category
+    });
+
+    toast({
+      title: 'Added to Cart',
+      description: `${product.name} has been added to your cart.`,
+    });
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -172,8 +198,11 @@ const Products = () => {
                     variant={product.inStock ? "default" : "outline"} 
                     size="sm"
                     disabled={!product.inStock}
+                    onClick={() => handleAddToCart(product)}
+                    className="flex items-center gap-1"
                   >
-                    {product.inStock ? "Book Now" : "Notify Me"}
+                    <ShoppingCart className="h-4 w-4" />
+                    {product.inStock ? "Add to Cart" : "Notify Me"}
                   </Button>
                 </div>
               </CardContent>
